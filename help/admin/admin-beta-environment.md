@@ -1,21 +1,21 @@
 ---
-description: 測試版環境適用於測試Audience Manager實作。 在Beta版中所做的變更不會影響生產資料。 Audience Manager測試版環境是生產環境的較小規模、獨立版本。 您想要測試的所有資料都必須在此環境中輸入和收集。
+description: 測試版環境適用於測試Audience Manager實作。 在Beta版中進行的變更不會影響生產資料。 Audience Manager測試版環境是生產環境的較小規模、獨立版本。 您想要測試的所有資料都必須在此環境中輸入和收集。
 seo-description: The beta environment is for testing Audience Manager implementations. Changes made in beta do not affect production data. The Audience Manager beta environment is a smaller-scale, standalone version of the production environment. All the data that you want to test must be entered and collected in this environment.
 seo-title: Beta Environment
 solution: Audience Manager
-title: 測試版環境
+title: Beta環境
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 3%
+source-wordcount: '348'
+ht-degree: 2%
 
 ---
 
-# 測試版環境 {#beta-environment}
+# Beta環境 {#beta-environment}
 
-測試版環境適用於測試Audience Manager實作。 在Beta版中所做的變更不會影響生產資料。 Audience Manager測試版環境是生產環境的較小規模、獨立版本。 您想要測試的所有資料都必須在此環境中輸入和收集。
+測試版環境適用於測試Audience Manager實作。 在Beta版中進行的變更不會影響生產資料。 Audience Manager測試版環境是生產環境的較小規模、獨立版本。 您想要測試的所有資料都必須在此環境中輸入和收集。
 
 ## 概述 {#overview}
 
@@ -23,38 +23,38 @@ ht-degree: 3%
 
 | 服務 | url/主機名稱 | 布建的步驟 |
 |--- |--- |--- |
-| S3 |  | 另請參閱 [布建Amazon S3貯體](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | https&amp;colon；//dcs-beta.demdex.net/... | 不需要從我們這邊執行額外的步驟。 另請參閱 [在Beta版環境中存取DCS](admin-beta-environment.md#access-dcs-beta-environment). |
-| UI | https&amp;colon；//bank-beta.demdex.com | 資料會每月從生產環境複製到測試版環境。 生產認證對Beta版有效。 |
-| API | https&amp;colon；//api-beta.demdex.com/... | 資料會每月從生產環境複製到測試版環境。 生產認證對Beta版有效。 |
+| S3 | | 請參閱[布建Amazon S3貯體](admin-beta-environment.md#provision-s3-buckets)。 |
+| DCS | https&amp;amp；冒號；//dcs-beta.demdex.net/... | 不需要從我們這邊執行額外的步驟。 請參閱[在Beta環境中存取DCS](admin-beta-environment.md#access-dcs-beta-environment)。 |
+| UI | https&amp;amp；冒號；//bank-beta.demdex.com | 資料會每月從生產環境複製到測試版環境。 生產認證對Beta版有效。 |
+| API | https&amp;amp；冒號；//api-beta.demdex.com/... | 資料會每月從生產環境複製到測試版環境。 生產認證對Beta版有效。 |
 
 ## 布建Amazon S3貯體 {#provision-s3-buckets}
 
 >[!NOTE]
 >
->我們正逐漸停止使用 [!DNL FTP/SFTP]. 此外，請注意，傳出資料傳輸不適用於測試版環境。
+>我們不再使用[!DNL FTP/SFTP]。 另外請注意，傳出資料傳輸不適用於測試版環境。
 
-要布建 [!DNL S3] 傳入資料的貯體：
+若要布建傳入資料的[!DNL S3]貯體：
 
-1. 使用 [**SKMS要求TechOps說明**](https://skms.adobe.com/) 功能。
-1. 前往 **[!UICONTROL Request TechOps Help]** 左側導覽邊欄中。
-1. 在 **[!UICONTROL Request Search]**，在搜尋欄位中輸入Audience Manager。
-1. 向下捲動搜尋結果，然後按一下 **Audience Manager- S3傳入/傳出帳戶布建**.
-1. 填寫啟動設定視窗中的欄位，並指定 **沙箱環境** 在 **[!UICONTROL Environment]** 欄位。
+1. 使用&#x200B;[**SKMS要求TechOps說明**](https://skms.adobe.com/)功能。
+1. 前往左側導覽邊欄中的&#x200B;**[!UICONTROL Request TechOps Help]**。
+1. 在&#x200B;**[!UICONTROL Request Search]**&#x200B;中，在搜尋欄位中輸入Audience Manager。
+1. 向下捲動搜尋結果，然後按一下&#x200B;**Audience Manager- S3輸入/輸出帳戶布建**。
+1. 填寫布建視窗中的欄位，並在&#x200B;**[!UICONTROL Environment]**&#x200B;欄位中指定&#x200B;**沙箱環境**。
 
 >[!NOTE]
 >
->我們不鼓勵使用 [!DNL FTP/SFTP] 並鼓勵使用 [!UICONTROL Amazon S3]. 我們鼓勵使用的原因 [!UICONTROL Amazon S3] 列於 [Amazon S3：關於](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
+>我們不鼓勵使用[!DNL FTP/SFTP]並鼓勵使用[!UICONTROL Amazon S3]。 我們鼓勵使用[!UICONTROL Amazon S3]的原因列於[Amazon S3：關於](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)。
 
-## 在Beta版環境中存取DCS {#access-dcs-beta-environment}
+## 在Beta環境中存取DCS {#access-dcs-beta-environment}
 
-若要存取 [!UICONTROL DCS] 在測試版環境中：
+若要在Beta版環境中存取[!UICONTROL DCS]：
 
-1. 建立 [!UICONTROL DCS] 呼叫，使用 [!DNL curl] [命令](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] 是一種工具，可使用多種支援的通訊協定之一，從伺服器傳輸資料或將資料傳輸至伺服器。
+1. 使用[!DNL curl] [命令](https://curl.haxx.se/docs/manpage.html)進行[!UICONTROL DCS]呼叫。 [!DNL Curl]是一種工具，可使用許多支援的通訊協定之一，將資料從伺服器傳輸或傳輸到伺服器。
 
    例如︰`curl -v https://dcs-beta.demdex.net/event`
 
-1. 確認測試版已提供您的請求 [!UICONTROL DCS] 藉由尋找»[!DNL sandbox]中的&quot; [!UICONTROL DCS] 回應標頭。
+1. 在[!UICONTROL DCS]回應標頭中尋找&quot;[!DNL sandbox]&quot;，確認測試版[!UICONTROL DCS]已提供您的要求。
 
    例如：
 

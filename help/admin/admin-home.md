@@ -7,8 +7,8 @@ uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
 source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 75%
+source-wordcount: '182'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ Audience Manager 管理員工具可讓您新增及設定公司、伺服器、報
 
 >[!IMPORTANT]
 >
-> 本檔案存放庫的對象是Adobe內部員工。 如果您是Audience Manager客戶，請導覽至 [Audience Manager指南概觀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> 本檔案存放庫的對象是Adobe內部員工。 如果您是Audience Manager客戶，請瀏覽至[Audience Manager指南總覽](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)。
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 

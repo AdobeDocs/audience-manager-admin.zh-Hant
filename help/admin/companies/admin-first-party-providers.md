@@ -8,7 +8,7 @@ exl-id: c1ac1d7c-84d4-44f0-a3b1-105078947dbc
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 8%
 
 <!-- t_first_party_providers.xml -->
 
-1. 按一下 **[!UICONTROL Companies]**，然後找到並按一下所需的公司以顯示其 [!UICONTROL Profile] 頁面。 使用 [!UICONTROL Search] 方塊或清單底部的分頁控制項，以尋找所需的公司。 您可以按一下所需欄的標頭，以遞增或遞減順序排序每個欄。
+1. 按一下&#x200B;**[!UICONTROL Companies]**，然後尋找並按一下所需的公司以顯示其[!UICONTROL Profile]頁面。 使用[!UICONTROL Search]方塊或清單底部的分頁控制項來尋找所需的公司。 您可以按一下所需欄的標頭，以遞增或遞減順序排序每個欄。
 
-1. 按一下 **[!UICONTROL First Party Data Providers]** 標籤。
+1. 按一下「**[!UICONTROL First Party Data Providers]**」標籤。
 
    ![](assets/first_party_providers.png)
 
@@ -28,5 +28,5 @@ ht-degree: 8%
 
    ![步驟結果](assets/first_party_providers_edit.png)
 
-1. 將容器從 **[!UICONTROL Available Containers]** 和 **[!UICONTROL Selected Containers for This Data Provider]** 清單，方法是選取所需的容器，然後視需要按一下向右或向左箭頭。
-1. 按一下 **[!UICONTROL Save]** 若您進行變更。
+1. 從&#x200B;**[!UICONTROL Available Containers]**&#x200B;和&#x200B;**[!UICONTROL Selected Containers for This Data Provider]**&#x200B;清單中移動容器，方法是選取所需的容器，然後視需要按一下向右或向左箭頭。
+1. 若您進行變更，請按一下&#x200B;**[!UICONTROL Save]**。

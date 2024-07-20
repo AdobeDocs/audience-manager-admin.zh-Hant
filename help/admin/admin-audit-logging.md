@@ -8,19 +8,19 @@ exl-id: ff68f90f-b521-4560-9bf6-a7a6a588adf9
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
 # 稽核記錄 {#audit-logging}
 
-使用 [!UICONTROL  Audit Logging] 做為客戶問題偵錯時的首選位置。
+偵錯客戶問題時，請先使用[!UICONTROL  Audit Logging]。
 
 >[!NOTE]
 >
->此 [!UICONTROL Audit Logging] 功能與檔案目前正在開發中，可能會有變動。 請記錄您在中遇到的任何問題 [!DNL JIRA] ([!DNL UI] 團隊)。
+>[!UICONTROL Audit Logging]功能和檔案目前正在開發中，可能會有變動。 請記錄您在[!DNL JIRA] （[!DNL UI]團隊）中遇到的任何問題。
 
-![稽核記錄檢視](assets/audit-logging-img.png)
+![稽核記錄檢視表](assets/audit-logging-img.png)
 
 <!-- 
 

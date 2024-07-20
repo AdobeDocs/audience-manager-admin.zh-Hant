@@ -2,21 +2,21 @@
 description: 一些常用的HTTP巨集組合範例。
 seo-description: Examples of some commonly used HTTP macro combinations.
 seo-title: HTTP Format Macro Examples
-title: HTTP 格式巨集範例
+title: HTTP格式巨集範例
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
 exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
-# HTTP 格式巨集範例 {#http-format-macro-examples}
+# HTTP格式巨集範例 {#http-format-macro-examples}
 
-一些常用範例 [!DNL HTTP] 巨集組合。
+某些常用的[!DNL HTTP]巨集組合範例。
 
-請參閱 [http格式巨集](../formats/web-formats.md) 以取得巨集及其定義的清單。
+如需巨集及其定義的清單，請參閱[HTTP格式巨集](../formats/web-formats.md)。
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -137,7 +137,7 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>如果欄位，列印逗號 <code>segments</code> 和 <code>removedSegments</code> 不是空的。 在串連區段和已移除區段的清單時，此條件可用於POST請求。 </p> </td> 
+   <td colname="col2"> <p>如果欄位<code>segments</code>和<code>removedSegments</code>不是空的，則列印逗號。 在串連區段和已移除區段的清單時，此條件式可用於POST要求。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

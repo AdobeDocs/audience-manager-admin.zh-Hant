@@ -8,7 +8,7 @@ exl-id: 555f0633-633c-42ff-8923-adf626aa46c4
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->依預設，公司會建立一個容器。 您可以在使用者介面中為公司建立其他容器，位置如下： **[!UICONTROL Tools > Tags]**.
+>依預設，公司是以一個容器建立。 您可以在使用者介面的&#x200B;**[!UICONTROL Tools > Tags]**&#x200B;中為公司建立其他容器。
 
-1. 按一下 **[!UICONTROL Companies]**，然後找到並按一下所需的公司以顯示其 [!UICONTROL Profile] 頁面。
+1. 按一下&#x200B;**[!UICONTROL Companies]**，然後尋找並按一下所需的公司以顯示其[!UICONTROL Profile]頁面。
 
-   使用 [!UICONTROL Search] 方塊或清單底部的分頁控制項，以尋找所需的公司。 您可以按一下所需欄的標頭，以遞增或遞減順序排序每個欄。
+   使用[!UICONTROL Search]方塊或清單底部的分頁控制項來尋找所需的公司。 您可以按一下所需欄的標頭，以遞增或遞減順序排序每個欄。
 
-1. 按一下 **[!UICONTROL Containers]** 標籤。
+1. 按一下「**[!UICONTROL Containers]**」標籤。
 
    ![](assets/containers.png)
 
@@ -34,13 +34,12 @@ ht-degree: 6%
 
    ![步驟結果](assets/containers_edit.png)
 
-1. 將資料來源從 **[!UICONTROL Available Data Sources]** 和 **[!UICONTROL Selected Data Sources for This Container]** 清單，方法是選取所需的資料來源，然後視需要按一下向右或向左箭頭。
+1. 從&#x200B;**[!UICONTROL Available Data Sources]**&#x200B;和&#x200B;**[!UICONTROL Selected Data Sources for This Container]**&#x200B;清單中行動資料來源，方法是選取所需的資料來源，然後視需要按一下向右或向左的箭頭。
 
-   您也可以從以下位置執行此工作 [第三方資料提供者](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)頁面。
+   您也可以從[協力廠商資料提供者](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)頁面執行此工作。
 
-1. 按一下 **[!UICONTROL Save]** 若您進行變更。
+1. 若您進行變更，請按一下&#x200B;**[!UICONTROL Save]**。
 
 >[!MORELIKETHIS]
 >
 >* [與 Media Optimizer 同步的 ID](../companies/admin-amo-sync.md#concept_2B5537233DAA4860B3503B344F937D83)
-

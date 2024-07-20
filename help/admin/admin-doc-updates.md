@@ -2,30 +2,30 @@
 description: 依日期列出 Audience Manager 管理員手冊的所有更新 (新增、刪除和更正項目)。
 seo-description: All updates (additions, deletions, and corrections) to the Audience Manager Admin Guide, by date.
 seo-title: Documentation Updates
-title: 年文件更新
+title: 文件更新
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
 source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '583'
 ht-degree: 94%
 
 ---
 
-# 年文件更新 {#documentation-updates}
+# 文件更新 {#documentation-updates}
 
 依日期列出 Audience Manager 管理員手冊的所有更新 (新增、刪除和更正項目)。
 
-如需功能版本、增強功能和錯誤修正的詳細資訊，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。對象 [!DNL Audience Manager] 檔案變更，請參閱 [檔案更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
+如需功能版本、增強功能和錯誤修正的詳細資訊，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。如需[!DNL Audience Manager]檔案變更，請參閱[檔案更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en)。
 
-## AAM 2019 文件更新 {#aam-2019-docs-updates}
+## AAM 2019檔案更新 {#aam-2019-docs-updates}
 
 | 主題 | 說明 |
 |--- |--- |
 | HTTP 格式巨集 | 新巨集 `REGION_ID_LIST` 及三個新欄位 (`sda`、`sda` 和 `sda`) 均已新增至 `USER_LIST` 巨集。 |
 | HTTP 格式巨集 | 新增兩個巨集：`ECID` 和 `MCID`。 |
 
-## AAM 2018 文件更新 {#aam-2018-docs-updates}
+## AAM 2018檔案更新 {#aam-2018-docs-updates}
 
 <!-- c_doc_updates.xml -->
 
@@ -52,7 +52,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-## AAM 2017 文件更新 {#aam-2017-docs-updates}
+## AAM 2017檔案更新 {#aam-2017-docs-updates}
 
 <table id="table_81D2DA9293A9417085C630D00A7C96E1"> 
  <thead> 
@@ -105,7 +105,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-## AAM 2016 文件更新 {#aam-2016-docs-updates}
+## AAM 2016檔案更新 {#aam-2016-docs-updates}
 
 <table id="table_E9D9810EA8244B58A4F27D56CFE521FD"> 
  <thead> 
@@ -145,7 +145,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-## AAM 2015 文件更新 {#aam-2015-docs-updates}
+## AAM 2015檔案更新 {#aam-2015-docs-updates}
 
 <table id="table_90F524BAAED44A45A1F6BF8BBA9F26F9"> 
  <thead> 
@@ -162,7 +162,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-## AAM 2014 文件更新 {#aam-2014-docs-updates}
+## AAM 2014檔案更新 {#aam-2014-docs-updates}
 
 <table id="table_FA9962E19248418BA73D5A794A378C9D"> 
  <thead> 
