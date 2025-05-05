@@ -26,7 +26,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >我們建議使用[!DNL Amazon S3]作為從合作夥伴取得檔案以及將檔案傳遞給合作夥伴的方法。 [!DNL Amazon S3]提供簡易的網頁服務介面，可隨時隨地從網頁上儲存及擷取任何數量的資料。 如需詳細資訊，請參閱&#x200B;*Audience Manager使用手冊*&#x200B;中的[關於Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)。
+   >我們建議使用[!DNL Amazon S3]作為從合作夥伴取得檔案以及將檔案傳遞給合作夥伴的方法。 [!DNL Amazon S3]提供簡易的網頁服務介面，可隨時隨地從網頁上儲存及擷取任何數量的資料。 如需詳細資訊，請參閱&#x200B;*Audience Manager使用手冊*&#x200B;中的[關於Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hant)。
 
 1. 填寫欄位: 
 

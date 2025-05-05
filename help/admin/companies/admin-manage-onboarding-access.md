@@ -16,7 +16,7 @@ ht-degree: 0%
 > 此頁面的對象是Adobe內部員工。 如果您是請求第二方資料來源對應的Audience Manager客戶（如本頁所述），請聯絡客戶服務或您的技術客戶經理。
 > 請注意，不需要請求現有資料共用關係的對應。 將資料上線至屬於您的PID的目標資料來源時，也不一定需要對應。
 
-為了防止檔案和資料意外上線至其他合作夥伴擁有的目標資料來源，Audience Manager在合作夥伴ID (PID)與其他合作夥伴擁有的資料來源(DPID)之間新增對應需求。 深入瞭解Audience ManagerID[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html)的索引中的PID與DPID。
+為了防止檔案和資料意外上線至其他合作夥伴擁有的目標資料來源，Audience Manager在合作夥伴ID (PID)與其他合作夥伴擁有的資料來源(DPID)之間新增對應需求。 深入瞭解Audience ManagerID[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hant)的索引中的PID與DPID。
 
 基於第二方資料共用目的，如果Audience Manager合作夥伴或客戶想要將檔案擷取至他們未擁有的目標資料來源，則他們需要請求合作夥伴ID (PID)與該特定資料來源(DPID)之間的對應。 如果缺少對應，傳入資料工作將不會處理檔案，且資料不會上線到Audience Manager中。
 

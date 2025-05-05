@@ -44,7 +44,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->我們不鼓勵使用[!DNL FTP/SFTP]並鼓勵使用[!UICONTROL Amazon S3]。 我們鼓勵使用[!UICONTROL Amazon S3]的原因列於[Amazon S3：關於](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)。
+>我們不鼓勵使用[!DNL FTP/SFTP]並鼓勵使用[!UICONTROL Amazon S3]。 我們鼓勵使用[!UICONTROL Amazon S3]的原因列於[Amazon S3：關於](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hant)。
 
 ## 在Beta環境中存取DCS {#access-dcs-beta-environment}
 

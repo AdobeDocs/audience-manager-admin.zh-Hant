@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ### Co-op裝置圖表 {#co-op-graph}
 
-參與[Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=en)的客戶會使用這些選項，以[決定性和機率資料](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en)來建立[!UICONTROL Profile Merge Rule]。 [!DNL Corporate Provisioning Team]透過後端[!DNL API]呼叫啟用和停用此選項。 您無法在[!DNL Admin UI]中核取或清除這些方塊。 另外，**[!UICONTROL Co-op Device Graph]**&#x200B;與&#x200B;**[!UICONTROL Company Device Graph]**&#x200B;選項互斥。 客戶可以要求我們啟用其中一個，但不能同時啟用兩者。 如果勾選，這會公開[!UICONTROL Profile Merge Rule]之[!UICONTROL Device Options]設定中的&#x200B;**[!UICONTROL Co-op Device Graph]**&#x200B;控制項。
+參與[Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=zh-Hant)的客戶會使用這些選項，以[決定性和機率資料](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=zh-Hant)來建立[!UICONTROL Profile Merge Rule]。 [!DNL Corporate Provisioning Team]透過後端[!DNL API]呼叫啟用和停用此選項。 您無法在[!DNL Admin UI]中核取或清除這些方塊。 另外，**[!UICONTROL Co-op Device Graph]**&#x200B;與&#x200B;**[!UICONTROL Company Device Graph]**&#x200B;選項互斥。 客戶可以要求我們啟用其中一個，但不能同時啟用兩者。 如果勾選，這會公開[!UICONTROL Profile Merge Rule]之[!UICONTROL Device Options]設定中的&#x200B;**[!UICONTROL Co-op Device Graph]**&#x200B;控制項。
 
 ![](assets/adminUI1.png)
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 此選項適用於在其[!DNL Analytics]報表套裝中使用[!UICONTROL People]量度的[!DNL Analytics]客戶。 [!DNL Corporate Provisioning Team]透過後端[!DNL API]呼叫啟用和停用此選項。 您無法在[!DNL Admin UI]中核取或清除這些方塊。 另外，**[!UICONTROL Company Device Graph]**&#x200B;與&#x200B;**[!UICONTROL Co-op Device Graph]**&#x200B;選項互斥。 客戶可以要求我們啟用其中一個，但不能同時啟用兩者。 選取時：
 
 * 此裝置圖表使用屬於您設定之公司的確定性資料（無機率資料）。
-* [!DNL Audience Manager]會自動建立名為`*`合作夥伴名稱`*-Company Device Graph-Person`的[!UICONTROL Data Source]。 在[!UICONTROL Data Source]詳細資訊頁面中，[!DNL Audience Manager]客戶可以變更合作夥伴名稱、說明，並將[資料匯出控制項](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en)套用至此資料來源。
+* [!DNL Audience Manager]會自動建立名為`*`合作夥伴名稱`*-Company Device Graph-Person`的[!UICONTROL Data Source]。 在[!UICONTROL Data Source]詳細資訊頁面中，[!DNL Audience Manager]客戶可以變更合作夥伴名稱、說明，並將[資料匯出控制項](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=zh-Hant)套用至此資料來源。
 * [!DNL Audience Manager]客戶&#x200B;*沒有*&#x200B;在[!UICONTROL Profile Merge Rule]的[!UICONTROL Device Options]區段中看到新設定。
 
 ### LiveRamp裝置圖表（個人或家庭） {#liveramp-device-graph}
@@ -50,5 +50,5 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [定義的設定檔合併規則選項](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rule-definitions.html?lang=en)
->* [資料Source設定和功能表選項](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=en)
+>* [定義的設定檔合併規則選項](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rule-definitions.html?lang=zh-Hant)
+>* [資料Source設定和功能表選項](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=zh-Hant)
