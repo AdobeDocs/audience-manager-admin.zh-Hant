@@ -50,7 +50,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果您要為協力電腦的即時資料傳輸[啟用](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en)OAuth 2.0驗證，請填入下表中的欄位。 必須完全依照表格填入&#x200B;*斜體*&#x200B;中的欄位。
+   >如果您要為協力電腦的即時資料傳輸[啟用](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=zh-Hant)OAuth 2.0驗證，請填入下表中的欄位。 必須完全依照表格填入&#x200B;*斜體*&#x200B;中的欄位。
 
    | 名稱 | 值 |
    |---|---|

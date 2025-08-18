@@ -22,7 +22,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->確保您的客戶閱讀Audience Manager使用手冊中的[OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth)檔案。
+>確保您的客戶閱讀Audience Manager使用手冊中的[OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=zh-Hant#oauth)檔案。
 
 [!DNL OAuth2]是授權代表資源擁有者提供[!DNL Audience Manager]資源之安全委派存取權的開放標準。
 

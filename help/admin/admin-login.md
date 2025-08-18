@@ -18,7 +18,7 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
-> 本檔案存放庫的對象是Adobe內部員工。 如果您是Audience Manager客戶，請瀏覽至[Audience Manager指南總覽](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)
+> 本檔案存放庫的對象是Adobe內部員工。 如果您是Audience Manager客戶，請瀏覽至[Audience Manager指南總覽](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hant)
 
 <!-- t_login.xml -->
 
