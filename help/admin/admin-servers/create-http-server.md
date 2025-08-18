@@ -1,5 +1,5 @@
 ---
-description: 您可以在「Audience Manager管理」工具的「伺服器」頁面，建立新的HTTP伺服器或編輯現有的伺服器。
+description: 使用Audience Manager管理工具中的「伺服器」頁面，建立新的HTTP伺服器或編輯現有的伺服器。
 seo-description: Use the Servers page in the Audience Manager Admin tool to create a new HTTP server or to edit an existing server.
 seo-title: Create or Edit an HTTP Server
 title: 建立或編輯HTTP伺服器
@@ -29,7 +29,7 @@ ht-degree: 2%
    * **[!UICONTROL Port]：**&#x200B;指定此伺服器的所需連線埠。 預設連線埠會針對每種加密型別顯示。 您可以視需要變更預設連線埠
    * **[!UICONTROL Maximum Users Per Request]：**&#x200B;指定此伺服器允許的每個要求使用者數目上限。
    * **[!UICONTROL URL Prefix]：**&#x200B;指定要用於此伺服器的前置詞[!DNL URL]。
-   * **[!UICONTROL Authentication URL]：**&#x200B;指定此`HTTP`伺服器的[!UICONTROL Authentication URL]。
+   * **[!UICONTROL Authentication URL]：**&#x200B;指定此[!UICONTROL Authentication URL]伺服器的`HTTP`。
    * **[!UICONTROL Authentication]：**&#x200B;指定想要的驗證方法： **[!UICONTROL None]**、**[!UICONTROL Username/Password]**&#x200B;或&#x200B;**[!UICONTROL SSH Key]**。
    * **[!UICONTROL HTTP Signature Header]：**&#x200B;客戶提供的[!DNL HTTP]標頭名稱，其中包含[!DNL HTTP]簽章金鑰。 預設值為[!UICONTROL X-Signature]，如下列範例所示：
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果您要為協力電腦的即時資料傳輸[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=zh-Hant)啟用OAuth 2.0驗證，請填入下表中的欄位。 必須完全依照表格填入&#x200B;*斜體*&#x200B;中的欄位。
+   >如果您要為協力電腦的即時資料傳輸[啟用](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en)OAuth 2.0驗證，請填入下表中的欄位。 必須完全依照表格填入&#x200B;*斜體*&#x200B;中的欄位。
 
    | 名稱 | 值 |
    |---|---|

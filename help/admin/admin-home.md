@@ -18,7 +18,7 @@ Audience Manager 管理員工具可讓您新增及設定公司、伺服器、報
 
 >[!IMPORTANT]
 >
-> 本檔案存放庫的對象是Adobe內部員工。 如果您是Audience Manager客戶，請瀏覽至[Audience Manager指南總覽](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hant)。
+> 本檔案存放庫的對象是Adobe內部員工。 如果您是Audience Manager客戶，請瀏覽至[Audience Manager指南總覽](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)。
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -34,12 +34,12 @@ Audience Manager 管理員工具可讓您新增及設定公司、伺服器、報
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>發行說明</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 
-     <li id="li_1B636241BCC14468980CF415B15A875F">請參閱最新的 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant" format="https" scope="external">Experience Cloud 發行說明</a>，瞭解全新功能和修正內容。 </li> 
-     <li id="li_6AD053625237446FB9B581772896F64F">請參閱<a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant" format="https" scope="external">之前的發行說明</a>，了解過往的公告內容。 </li> 
+     <li id="li_1B636241BCC14468980CF415B15A875F">請參閱最新的 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 發行說明</a>，瞭解全新功能和修正內容。 </li> 
+     <li id="li_6AD053625237446FB9B581772896F64F">請參閱<a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">之前的發行說明</a>，了解過往的公告內容。 </li> 
     </ul> <p class="head"> <b>Experience Cloud 資源</b> </p> 
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
      <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/products/marketing-cloud/main.html" format="http" scope="external">Adobe Experience Cloud</a> </li> 
-     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/tw/support/social.html" format="http" scope="external">Adobe Social 社群</a> </li> 
+     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external">Adobe Social 社群</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/tw/learning.html?promoid=KAUDK" format="https" scope="external">Adobe 培訓和教學課程</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
      <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/tw/support/experience-cloud.html" format="https" scope="external">產品文件首頁</a> </li> 

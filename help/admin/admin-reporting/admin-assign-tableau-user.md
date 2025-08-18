@@ -1,5 +1,5 @@
 ---
-description: 使用「報表」頁面，將入口網站使用者設為Tableau使用者。 這可讓使用者以Audience Manager檢視Tableau報表。
+description: 使用「報表」頁面，將入口網站使用者設為Tableau使用者。 這可讓使用者在Audience Manager中檢視Tableau報表。
 seo-description: Use the Reporting page to make a portal user a Tableau user. This lets users view Tableau reports in Audience Manager.
 seo-title: Assign a Portal User to Tableau User
 title: 將入口網站使用者指派給Tableau使用者
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- t_tabeau.xml -->
 
-使用[!UICONTROL Reporting]頁面讓入口網站使用者成為[!DNL Tableau]使用者。 這可讓使用者以Audience Manager檢視[!DNL Tableau]份報告。
+使用[!UICONTROL Reporting]頁面讓入口網站使用者成為[!DNL Tableau]使用者。 這可讓使用者在Audience Manager中檢視[!DNL Tableau]報表。
 
 1. 按一下&#x200B;**[!UICONTROL Reporting]** > **[!UICONTROL Assign Portal User to Tableau User]**。
 

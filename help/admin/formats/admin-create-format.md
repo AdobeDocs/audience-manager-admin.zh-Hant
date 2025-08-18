@@ -1,5 +1,5 @@
 ---
-description: 使用「Audience Manager管理」工具中的「格式」頁面來建立新格式或編輯現有格式。
+description: 使用Audience Manager管理工具中的「格式」頁面來建立新格式或編輯現有格式。
 seo-description: Use the Formats page in the Audience Manager Admin tool to create a new format or to edit an existing format.
 seo-title: Create or Edit a Format
 title: 建立或編輯格式
@@ -43,7 +43,7 @@ ht-degree: 1%
    * **[!UICONTROL Data Row]：**&#x200B;指定出現在檔案每個外出資料列中的文字。
    * **[!UICONTROL Maximum File Size (In MB)]：**&#x200B;指定資料傳輸檔案的大小上限。 壓縮檔案必須小於100 MB。 未壓縮檔案大小沒有限制。
    * **[!UICONTROL Compression]：**&#x200B;為您的資料檔案選取所需的壓縮型別： gz或zip。 若要傳送至[!UICONTROL AWS S3]，您必須使用.gz或未壓縮的檔案。
-   * **[!UICONTROL .info Receipt]：**&#x200B;指定產生傳輸控制([!DNL .info])檔案。 [!DNL .info]檔案提供有關檔案傳輸的中繼資料資訊，讓合作夥伴可以驗證Audience Manager是否正確處理檔案傳輸。 如需詳細資訊，請參閱記錄檔傳輸的[傳輸控制檔](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=zh-Hant)。
+   * **[!UICONTROL .info Receipt]：**&#x200B;指定產生傳輸控制([!DNL .info])檔案。 [!DNL .info]檔案提供有關檔案傳輸的中繼資料資訊，讓合作夥伴可以驗證Audience Manager是否正確處理檔案傳輸。 如需詳細資訊，請參閱記錄檔傳輸的[傳輸控制檔](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en)。
    * **[!UICONTROL MD5 Checksum Receipt]：**&#x200B;指定產生[!DNL MD5]總和檢查碼回條。 [!DNL MD5]總和檢查碼回條，讓合作夥伴可以驗證Audience Manager是否正確處理完整傳輸。
 
 1. （視條件而定）如果您選擇&#x200B;**[!UICONTROL HTTP]**，請填入欄位：
@@ -57,5 +57,5 @@ ht-degree: 1%
 ## 刪除格式 {#delete-format}
 
 1. 按一下 **[!UICONTROL Formats]**。
-2. 按一下所需格式之&#x200B;**[!UICONTROL Actions]**&#x200B;欄中的![](assets/icon_delete.png)。
+2. 按一下所需格式之![](assets/icon_delete.png)欄中的&#x200B;**[!UICONTROL Actions]**。
 3. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以確認刪除。

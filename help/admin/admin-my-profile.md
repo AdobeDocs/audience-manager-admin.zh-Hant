@@ -1,5 +1,5 @@
 ---
-description: 編輯Audience Manager管理員工具設定檔的詳細資訊或變更密碼。
+description: 編輯Audience Manager管理工具設定檔的詳細資訊或變更密碼。
 seo-description: Edit the details of your Audience Manager Admin tool profile or change your password.
 seo-title: My Profile
 title: 我的設定檔
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # 我的設定檔 {#my-profile}
 
-編輯Audience Manager管理員工具設定檔的詳細資訊或變更密碼。
+編輯Audience Manager管理工具設定檔的詳細資訊或變更密碼。
 
 <!-- c_my_profile.xml -->
 
 ## 編輯設定檔 {#edit-profile}
 
-檢視並編輯您的Audience Manager管理員工具設定檔，包括名字和姓氏、使用者名稱、電子郵件地址、電話號碼、[!UICONTROL IMS ID]、使用者角色和狀態。
+檢視及編輯您的Audience Manager管理工具設定檔，包括名字和姓氏、使用者名稱、電子郵件地址、電話號碼、[!UICONTROL IMS ID]、使用者角色和狀態。
 
 <!-- t_edit_profile.xml -->
 
@@ -41,15 +41,15 @@ ht-degree: 2%
       * **[!UICONTROL DELETE_USERS]：**&#x200B;可讓使用者使用[!DNL API]呼叫刪除現有的使用者。
       * **[!UICONTROL EDIT_USERS]：**&#x200B;可讓使用者使用[!DNL API]呼叫編輯現有的使用者。
       * **[!UICONTROL VIEW_USERS]：**&#x200B;可讓使用者使用[!DNL API]呼叫檢視您Audience Manager組態中的其他使用者。
-      * **[!UICONTROL CREATE_PARTNERS]：**&#x200B;可讓使用者使用[!DNL API]呼叫建立Audience Manager夥伴。
+      * **[!UICONTROL CREATE_PARTNERS]：**&#x200B;可讓使用者使用[!DNL API]呼叫建立Audience Manager合作夥伴。
       * **[!UICONTROL DELETE_PARTNERS]：**&#x200B;可讓使用者使用[!DNL API]呼叫來刪除Audience Manager合作夥伴。
       * **[!UICONTROL EDIT_PARTNERS]：**&#x200B;可讓使用者使用[!DNL API]呼叫編輯Audience Manager合作夥伴。
       * **[!UICONTROL VIEW_PARNTERS]：**&#x200B;可讓使用者使用[!DNL API]呼叫檢視Audience Manager合作夥伴。
    * **[!UICONTROL Status]：**&#x200B;選取想要的狀態：
-      * **[!UICONTROL Active]：**&#x200B;指定此使用者為使用中Audience Manager使用者。
+      * **[!UICONTROL Active]：**&#x200B;指定此使用者在作用中的Audience Manager使用者中。
       * **[!UICONTROL Deactivated]：**&#x200B;指定此使用者是Audience Management中的停用使用者。
       * **[!UICONTROL Expired]：**&#x200B;指定此使用者在Audience Manager中的帳戶已過期。
-      * **[!UICONTROL Locked Out]：**&#x200B;指定鎖定此使用者的Audience Manager帳戶。
+      * **[!UICONTROL Locked Out]：**&#x200B;指定此使用者在Audience Manager中的帳戶已鎖定。
 3. 按一下 **[!UICONTROL Submit]**。
 
 ## 變更密碼 {#change-password}

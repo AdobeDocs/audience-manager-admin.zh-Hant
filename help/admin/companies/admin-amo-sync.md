@@ -1,5 +1,5 @@
 ---
-description: 依預設，所有公司都會與Adobe Media Optimizer (AMO)同步資料。 在管理UI中，每個公司容器都有一個資料來源來管理此程式。 此資料來源為AdobeAMO (ID 411)。 按一下所選公司的容器列（在「容器」標籤下），以停用此預設同步作業，或將其他資料來源新增至AMO同步作業程式，或從中移除資料來源。
+description: 依預設，所有公司都會與Adobe Media Optimizer (AMO)同步資料。 在管理UI中，每個公司容器都有一個資料來源來管理此程式。 此資料來源為Adobe AMO (ID 411)。 按一下所選公司的容器列（在「容器」標籤下），以停用此預設同步作業，或將其他資料來源新增至AMO同步作業程式，或從中移除資料來源。
 seo-description: By default, all companies sync data with Adobe Media Optimizer (AMO). In the Admin UI, each company container has a data source that manages this process. This data source is Adobe AMO (ID 411). Click a container row (under the Containers tab) for a selected company to disable this default sync or to add and remove other data sources to the AMO sync process.
 seo-title: ID Syncing with Media Optimizer
 title: ID與Media Optimizer同步

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 伺服器概述 {#servers-overview}
 
-使用[!UICONTROL Servers]頁面檢視您Audience Manager組態中的伺服器清單。 您可以編輯或刪除現有的伺服器，或建立新伺服器，前提是您已指派適當的使用者角色。
+使用[!UICONTROL Servers]頁面檢視Audience Manager設定中的伺服器清單。 您可以編輯或刪除現有的伺服器，或建立新伺服器，前提是您已指派適當的使用者角色。
 
 <!-- c_servers.xml -->
 

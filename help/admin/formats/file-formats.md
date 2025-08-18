@@ -105,7 +105,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>插入右大括弧<code>&rbrace;</code>字元。 </p> </td> 
+   <td colname="col2"> <p>插入右大括弧<code>}</code>字元。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -113,7 +113,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term">資料合作夥伴唯一使用者識別碼</span>。 如果指派給使用者/網站訪客的ID已與<span class="keyword">Audience Manager</span>裝置ID同步，則傳回該ID。 </p> <p>如果DPID為0，此巨集會傳回<span class="keyword">Audience Manager</span> ID，而不是您使用者的識別碼。 </p> </td> 
+   <td colname="col2"> <p> <span class="term">資料合作夥伴唯一使用者識別碼</span>。 如果指派給使用者/網站訪客的ID已與<span class="keyword"> Audience Manager </span>裝置ID同步，則傳回該ID。 </p> <p>如果DPID為0，此巨集將傳回<span class="keyword">個Audience Manager </span> ID，而不是您使用者的識別碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -137,7 +137,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>插入左大括弧<code>&lbrace;</code>字元。 </p> </td> 
+   <td colname="col2"> <p>插入左大括弧<code>{</code>字元。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -194,7 +194,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span>使用者識別碼。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span>使用者識別碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

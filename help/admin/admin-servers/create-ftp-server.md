@@ -1,5 +1,5 @@
 ---
-description: 使用「Audience Manager管理員」工具中的「伺服器」頁面，建立新的FTP伺服器或編輯現有的伺服器。
+description: 使用Audience Manager管理工具中的「伺服器」頁面，建立新的FTP伺服器或編輯現有的伺服器。
 seo-description: Use the Servers page in the Audience Manager Admin tool to create a new FTP server or to edit an existing server.
 seo-title: Create or Edit an FTP Server
 title: 建立或編輯FTP伺服器
@@ -7,7 +7,7 @@ uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
 source-git-commit: 8af040e49b881302315e0b66baa73db47c5eee28
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >作為最佳實務，建議您使用[!DNL Amazon S3]作為從合作夥伴取得檔案並將檔案傳遞給合作夥伴的方法。 [!DNL Amazon S3]提供簡易的網頁服務介面，可隨時隨地從網頁上儲存及擷取任何數量的資料。 如需詳細資訊，請參閱&#x200B;*Audience Manager使用手冊*&#x200B;中的[關於Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hant)。
+   >作為最佳實務，建議您使用[!DNL Amazon S3]作為從合作夥伴取得檔案並將檔案傳遞給合作夥伴的方法。 [!DNL Amazon S3]提供簡易的網頁服務介面，可隨時隨地從網頁上儲存及擷取任何數量的資料。 如需詳細資訊，請參閱[Amazon使用手冊](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)中的&#x200B;*關於Audience Manager S3*。
 
 1. 填寫欄位: 
 
@@ -47,7 +47,7 @@ ht-degree: 1%
    >[!NOTE]
    >
    >設定SSH金鑰驗證時，請務必只以OpenSSH格式產生公開和私密金鑰。
-   >1. 從任何[!DNL Linux]或[!DNL Mac]電腦產生公開/私用金鑰組。
-   >1. 將&#x200B;**公開金鑰**&#x200B;提供給使用者端，以便在其[!DNL SFTP]伺服器上更新。 他們必須包含其伺服器上公開金鑰的所有文字，包括`-----BEGIN RSA PRIVATE KEY-----`和`-----END RSA PRIVATE KEY-----` 。 為了交換，他們必須提供安裝金鑰所用的使用者名稱。
-   >1. 請以使用者端提供的使用者名稱欄位更新使用者名稱欄位，並使用&#x200B;**私密金鑰**&#x200B;更新金鑰欄位。
+   1. 從任何[!DNL Linux]或[!DNL Mac]電腦產生公開/私用金鑰組。
+   1. 將&#x200B;**公開金鑰**&#x200B;提供給使用者端，以便在其[!DNL SFTP]伺服器上更新。 他們必須包含其伺服器上公開金鑰的所有文字，包括`-----BEGIN RSA PRIVATE KEY-----`和`-----END RSA PRIVATE KEY-----` 。 為了交換，他們必須提供安裝金鑰所用的使用者名稱。
+   1. 請以使用者端提供的使用者名稱欄位更新使用者名稱欄位，並使用&#x200B;**私密金鑰**&#x200B;更新金鑰欄位。
 1. 如果您正在建立新伺服器，請按一下&#x200B;**[!UICONTROL Create]**；如果您正在編輯現有伺服器，請按一下&#x200B;**[!UICONTROL Update]**。

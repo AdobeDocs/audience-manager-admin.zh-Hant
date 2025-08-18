@@ -1,5 +1,5 @@
 ---
-description: 建立新的Audience Manager使用者或編輯及刪除現有的使用者。
+description: 建立新的Audience Manager使用者或編輯及刪除現有使用者。
 seo-description: Create new Audience Manager users or edit and delete existing users.
 seo-title: Manage Company Users
 title: 管理公司使用者
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 管理公司使用者 {#manage-company-users}
 
-建立新的Audience Manager使用者或編輯及刪除現有的使用者。
+建立新的Audience Manager使用者或編輯及刪除現有使用者。
 
 <!-- t_manage_company_users.xml -->
 
@@ -36,7 +36,7 @@ ht-degree: 2%
    * **[!UICONTROL IMS ID]**：使用者的[!UICONTROL Identity Management System ID]。 此ID可讓使用者連結至Adobe Experience Cloud的Adobe解決方案。
    * **[!UICONTROL Is Admin]**：將此使用者設為Audience Manager管理使用者。 管理員擁有此合作夥伴的所有Audience Manager使用者角色。
    * **[!UICONTROL Status]**：建立新使用者時，此欄位最初顯示為&#x200B;**[!UICONTROL Pending]**，直到使用者登入並重設暫存密碼為止。 如果您正在編輯現有使用者，則可以從以下狀態中選取：
-      * **[!UICONTROL Active]**：指定此使用者為作用中Audience Manager使用者。
+      * **[!UICONTROL Active]**：指定此使用者是作用中的Audience Manager使用者。
       * **[!UICONTROL Deactivated]**：指定此使用者是已停用的Audience Manager使用者。
       * **[!UICONTROL Expired]**：指定此使用者是過期的使用者。
       * **[!UICONTROL Locked Out]**：指定此使用者為鎖定使用者。
@@ -48,5 +48,5 @@ ht-degree: 2%
 若要刪除使用者：
 
 1. 按一下「**[!UICONTROL Companies]**」，尋找並按一下所需的公司，然後按一下「**[!UICONTROL Users]**」標籤。
-1. 按一下所需使用者&#x200B;**[!UICONTROL Actions]**&#x200B;欄中的![](assets/icon_delete.png)。
+1. 按一下所需使用者![](assets/icon_delete.png)欄中的&#x200B;**[!UICONTROL Actions]**。
 1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以確認刪除。

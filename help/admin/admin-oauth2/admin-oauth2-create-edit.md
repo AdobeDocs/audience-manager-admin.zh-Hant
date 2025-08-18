@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Oauth2使用者端 {#oauth-clients}
 
-使用[!UICONTROL OAuth2 Clients]頁面檢視您[!DNL Audience Manager]組態中的[!UICONTROL OAuth2]使用者端清單。 您可以編輯或刪除現有的使用者端或建立新使用者端，前提是您已指派適當的使用者角色。
+使用[!UICONTROL OAuth2 Clients]頁面檢視您[!UICONTROL OAuth2]組態中的[!DNL Audience Manager]使用者端清單。 您可以編輯或刪除現有的使用者端或建立新使用者端，前提是您已指派適當的使用者角色。
 
 ## 概述 {#overview}
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->請確定您的客戶閱讀了Audience Manager使用手冊中的[OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=zh-Hant#oauth)檔案。
+>確保您的客戶閱讀Audience Manager使用手冊中的[OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth)檔案。
 
 [!DNL OAuth2]是授權代表資源擁有者提供[!DNL Audience Manager]資源之安全委派存取權的開放標準。
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 <!-- t_create_edit_auth.xml -->
 
-使用Audience Manager[!UICONTROL Admin]工具中的[!UICONTROL OAuth2 Clients]頁面來建立新的[!UICONTROL Oauth2]使用者端或編輯現有的使用者端。
+使用Audience Manager [!UICONTROL OAuth2 Clients]工具中的[!UICONTROL Admin]頁面來建立新的[!UICONTROL Oauth2]使用者端或編輯現有的使用者端。
 
 1. 若要建立新的[!UICONTROL OAuth2]使用者端，請按一下&#x200B;**[!UICONTROL OAuth2 Clients]** > **[!UICONTROL Add OAuth2 Client]**。 若要編輯現有的[!UICONTROL OAuth2]使用者端，請在&#x200B;**[!UICONTROL Client ID]**&#x200B;欄中按一下所需的使用者端。
 1. 指定此[!UICONTROL OAuth2]使用者端的所需名稱。 請注意，這是僅記錄的名稱。
@@ -52,7 +52,7 @@ ht-degree: 1%
    * **[!UICONTROL Password]**：使用者是以使用者輸入的密碼驗證，而非透過授權伺服器自動驗證嘗試。
    * **[!UICONTROL Refresh_token]**：用來重新整理過期的存取Token超過一段時間。
 
-1. 在&#x200B;**[!UICONTROL Redirect URI]**&#x200B;方塊中，指定所需的[!DNL URI]。 只有在選取&#x200B;**[!UICONTROL Implicit]**&#x200B;和&#x200B;**[!UICONTROL Authorization_code]**&#x200B;授權型別時，才會啟用此選項。 **[!UICONTROL Redirect URI]**&#x200B;方塊可讓您指定可接受[!DNL URI]值的逗號分隔值。 這是核准使用者端[!DNL API]存取權後，使用者端使用者被重新導向的[!DNL URI]。
+1. 在&#x200B;**[!UICONTROL Redirect URI]**&#x200B;方塊中，指定所需的[!DNL URI]。 只有在選取&#x200B;**[!UICONTROL Implicit]**&#x200B;和&#x200B;**[!UICONTROL Authorization_code]**&#x200B;授權型別時，才會啟用此選項。 **[!UICONTROL Redirect URI]**&#x200B;方塊可讓您指定可接受[!DNL URI]值的逗號分隔值。 這是核准使用者端[!DNL URI]存取權後，使用者端使用者被重新導向的[!DNL API]。
 1. 指定存取和重新整理權杖到期所需的到期時間（以秒為單位）。
 
    * **[!UICONTROL Access Token Expiration Time]**：存取權杖簽發後有效的秒數。 可為Null以使用平台預設值（12小時）。 也可能是–1，表示存取權杖未過期。
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL Save]**。
 
-若要刪除[!UICONTROL OAuth2]使用者端，請按一下&#x200B;**[!UICONTROL OAuth2 Clients]**，然後按一下所需使用者端&#x200B;**[!UICONTROL Actions]**&#x200B;欄中的![](assets/icon_delete.png)。
+若要刪除[!UICONTROL OAuth2]使用者端，請按一下&#x200B;**[!UICONTROL OAuth2 Clients]**，然後按一下所需使用者端![](assets/icon_delete.png)欄中的&#x200B;**[!UICONTROL Actions]**。
 
 >[!MORELIKETHIS]
 >

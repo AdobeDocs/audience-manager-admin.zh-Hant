@@ -8,7 +8,7 @@ uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -38,19 +38,19 @@ ht-degree: 2%
 
 1. 使用&#x200B;[**SKMS要求TechOps說明**](https://skms.adobe.com/)功能。
 1. 前往左側導覽邊欄中的&#x200B;**[!UICONTROL Request TechOps Help]**。
-1. 在&#x200B;**[!UICONTROL Request Search]**&#x200B;中，在搜尋欄位中輸入Audience Manager。
-1. 向下捲動搜尋結果，然後按一下&#x200B;**Audience Manager- S3輸入/輸出帳戶布建**。
-1. 填寫布建視窗中的欄位，並在&#x200B;**[!UICONTROL Environment]**&#x200B;欄位中指定&#x200B;**沙箱環境**。
+1. 在&#x200B;**[!UICONTROL Request Search]**&#x200B;中，於搜尋欄位中輸入Audience Manager。
+1. 向下捲動搜尋結果，然後按一下&#x200B;**Audience Manager - S3輸入/輸出帳戶布建**。
+1. 填寫布建視窗中的欄位，並在&#x200B;**欄位中指定**&#x200B;沙箱環境&#x200B;**[!UICONTROL Environment]**。
 
 >[!NOTE]
 >
->我們不鼓勵使用[!DNL FTP/SFTP]並鼓勵使用[!UICONTROL Amazon S3]。 我們鼓勵使用[!UICONTROL Amazon S3]的原因列於[Amazon S3：關於](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hant)。
+>我們不鼓勵使用[!DNL FTP/SFTP]並鼓勵使用[!UICONTROL Amazon S3]。 我們鼓勵使用[!UICONTROL Amazon S3]的原因列於[Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)。
 
 ## 在Beta環境中存取DCS {#access-dcs-beta-environment}
 
 若要在Beta版環境中存取[!UICONTROL DCS]：
 
-1. 使用[!DNL curl] [命令](https://curl.haxx.se/docs/manpage.html)進行[!UICONTROL DCS]呼叫。 [!DNL Curl]是一種工具，可使用許多支援的通訊協定之一，將資料從伺服器傳輸或傳輸到伺服器。
+1. 使用[!UICONTROL DCS] [!DNL curl]命令[進行](https://curl.haxx.se/docs/manpage.html)呼叫。 [!DNL Curl]是一種工具，可使用許多支援的通訊協定之一，將資料從伺服器傳輸或傳輸到伺服器。
 
    例如︰`curl -v https://dcs-beta.demdex.net/event`
 

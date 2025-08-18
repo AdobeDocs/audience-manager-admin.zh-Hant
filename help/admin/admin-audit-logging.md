@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 稽核記錄 {#audit-logging}
 
-偵錯客戶問題時，請先使用[!UICONTROL &#x200B; Audit Logging]。
+偵錯客戶問題時，請先使用[!UICONTROL  Audit Logging]。
 
 >[!NOTE]
 >

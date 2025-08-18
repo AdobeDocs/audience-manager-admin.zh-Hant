@@ -30,12 +30,12 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword">Audience Manager</span> ID。 </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> Audience Manager </span> ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>資料合作夥伴不重複使用者ID。 如果使用者的ID已與<span class="keyword">Audience Manager</span>裝置ID同步，此巨集會傳回您已指派給該使用者的識別碼。 </p> </td> 
+   <td colname="col3"> <p>資料合作夥伴不重複使用者ID。 如果使用者的ID已與<span class="keyword"> Audience Manager </span>裝置ID同步，此巨集會傳回您已指派給該使用者的識別碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -90,7 +90,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>活動來源的<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=zh-Hant">Audience ManagerDCS區域</a>。</p> </td> 
+   <td colname="col3"> <p>活動來源的<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> Audience Manager DCS區域</a>。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -159,7 +159,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p><span class="keyword">Audience Manager</span>使用者ID的清單。 您也可以傳回包含以下內容的特定欄位： </p> 
+   <td colname="col3"> <p><span class="keyword"> Audience Manager </span>使用者ID的清單。 您也可以傳回包含以下內容的特定欄位： </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 

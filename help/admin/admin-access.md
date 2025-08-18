@@ -1,5 +1,5 @@
 ---
-description: 登入內部Adobe中的帳戶管理入口網站，申請功能管理員存取權，並遵循以下所述的步驟。
+description: 登入Adobe中的帳戶管理入口網站，申請功能管理員存取權，並遵循下列步驟操作。
 seo-description: Log in to the Account Management portal in Inside Adobe to request Functional Admin Access and follow the steps described below.
 seo-title: How to Request Functional Admin Access
 title: 如何要求功能管理平台存取權
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 如何要求功能管理平台存取權 {#how-to-request-functional-admin-access}
 
-在[!UICONTROL Inside Adobe]登入[!UICONTROL Identity & Access Management]入口網站以要求[!UICONTROL Functional Admin Access]，並遵循下列步驟進行。
+在[!UICONTROL Identity & Access Management]登入[!UICONTROL Inside Adobe]入口網站以要求[!UICONTROL Functional Admin Access]，並遵循下列步驟進行。
 
 <!-- request-functional-admin-access.xml -->
 
@@ -25,5 +25,5 @@ ht-degree: 0%
 5. 在存取型別清單中選取&#x200B;**[!UICONTROL Digital Marketing]**。
 6. 在&#x200B;**[!UICONTROL Manage Digital Marketing Access]**&#x200B;頁面中，選取下拉式方塊中的&#x200B;**[!UICONTROL Request Admin Console Access]**&#x200B;並按一下&#x200B;**[!UICONTROL Next/Submit]**。
 7. 在&#x200B;**[!UICONTROL Request Admin Console Access - Console]**&#x200B;頁面中，選取下拉式方塊中的&#x200B;**[!UICONTROL AAM]**&#x200B;並按一下&#x200B;**[!UICONTROL Next/Submit]**。
-8. 在&#x200B;**[!UICONTROL Request Admin Console Access - Groups]**&#x200B;視窗中，選取&#x200B;**[!UICONTROL Available Entitlements]**&#x200B;清單中的&#x200B;**[!UICONTROL AAM Functional Admin - General Access]**，並填入您請求的&#x200B;**[!UICONTROL Business Justification]**。 按一下&#x200B;**[!UICONTROL Next/Submit]**&#x200B;以確認請求。
+8. 在&#x200B;**[!UICONTROL Request Admin Console Access - Groups]**&#x200B;視窗中，選取&#x200B;**[!UICONTROL AAM Functional Admin - General Access]**&#x200B;清單中的&#x200B;**[!UICONTROL Available Entitlements]**，並填入您請求的&#x200B;**[!UICONTROL Business Justification]**。 按一下&#x200B;**[!UICONTROL Next/Submit]**&#x200B;以確認請求。
 9. 您的請求需要先獲得核准，才能擁有功能管理員存取權。

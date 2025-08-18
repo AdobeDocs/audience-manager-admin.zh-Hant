@@ -7,7 +7,7 @@ user-guide-description: Audience Manager 管理員工具可讓您新增及設定
 source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 28%
 # Audience Manager 管理平台指南 {#admin-guide}
 
 + [Audience Manager 管理平台首頁](admin-home.md)
-+ [登入Audience Manager管理員](admin-login.md)
++ [登入Audience Manager管理](admin-login.md)
 + [如何要求功能管理平台存取權](admin-access.md)
 + 公司{#companies}
    + [公司](companies/admin-companies-overview.md)
@@ -37,7 +37,7 @@ ht-degree: 28%
    + [建立或編輯S3伺服器](admin-servers/create-s3-server.md)
    + [授權跨帳戶Amazon S3儲存貯體存取](admin-servers/admin-authorize-s3-cross-bucket.md)
    + [刪除伺服器](admin-servers/admin-delete-server.md)
-+ 報表{#reporting}
++ 報告{#reporting}
    + [報告](admin-reporting/admin-reporting-overview.md)
    + [將入口網站使用者指派給Tableau使用者](admin-reporting/admin-assign-tableau-user.md)
 + 格式{#formats}
@@ -48,9 +48,9 @@ ht-degree: 28%
    + [HTTP 格式巨集](formats/web-formats.md)
    + [HTTP格式巨集範例](formats/web-format-examples.md)
    + [建立或編輯格式](formats/admin-create-format.md)
-+ OAuth2 用戶端{#oath2-clients}
++ Oauth2使用者端{#oath2-clients}
    + [Oauth2使用者端](admin-oauth2/admin-oauth2-create-edit.md)
-   + [API需求與Recommendations](admin-oauth2/aam-admin-api-requirements.md)
+   + [API需求與建議](admin-oauth2/aam-admin-api-requirements.md)
 + [稽核記錄](admin-audit-logging.md)
 + [我的設定檔](admin-my-profile.md)
 + [目的地設定疑難排解](admin-destination-troubleshooting.md)
