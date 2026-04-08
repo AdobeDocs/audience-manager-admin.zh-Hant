@@ -6,9 +6,15 @@ title: 目的地設定疑難排解
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
 TQID: https://experienceleague.adobe.com/R21EJzuvrPlTAa3n92xgT74wdAKKKZxlJL8nWNn3mgA
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 1343
@@ -93,7 +99,7 @@ ht-degree: 3%
 >
 >如需在管理員UI中建立目的地的詳細逐步解說，請參閱[建立或編輯公司目的地](companies/admin-manage-company-destinations.md#create-edit-company-destinations)文章。
 
-您的客戶想要根據目的地匯出不同的ID型別。 以下組態圖表顯示您應該選取哪些選項，以匯出與不同ID型別相關的設定檔資訊。 建議您也參考Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en)中的[ID索引。 有三個重要的設定需要考慮： [!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我們將在下方詳細介紹所有這些。
+您的客戶想要根據目的地匯出不同的ID型別。 以下組態圖表顯示您應該選取哪些選項，以匯出與不同ID型別相關的設定檔資訊。 建議您也參考Audience Manager[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en)中的ID索引。 有三個重要的設定需要考慮： [!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我們將在下方詳細介紹所有這些。
 
 * [!UICONTROL User ID Key]. 在[!UICONTROL Admin UI]中，移至&#x200B;**[!UICONTROL Companies]**。 搜尋客戶的公司，然後按一下該公司。 尋找&#x200B;**[!UICONTROL Destinations]**&#x200B;索引標籤並按&#x200B;**[!UICONTROL Add Destination]**。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流程中，選取[!UICONTROL User ID Key]。 [!UICONTROL User ID Key]將篩選來自目標資料來源的傳入ID，並只允許這些ID通過。
 
