@@ -5,9 +5,19 @@ seo-title: Destination Setup Troubleshooting
 title: 目的地設定疑難排解
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
+TQID: https://experienceleague.adobe.com/R21EJzuvrPlTAa3n92xgT74wdAKKKZxlJL8nWNn3mgA
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: 1343
 ht-degree: 3%
 
 ---
@@ -52,10 +62,10 @@ ht-degree: 3%
 * **[!DNL S3]**
    * [!DNL S3]是慣用的傳輸通訊協定（超過[!DNL FTP]或[!DNL HTTP]）。
       * **[!UICONTROL Bucket]**
-         * 貯體名稱應該列出時不含斜線、前置詞、尾碼等。 如果您有指定的地址[!DNL s3://your-bucket]，您應該只新增[!DNL your-bucket]到此欄位。
+         * 貯體名稱應該列出時不含斜線、前置詞、尾碼等。如果您有指定的地址[!DNL s3://your-bucket]，您應該只新增[!DNL your-bucket]到此欄位。
       * **[!UICONTROL Directory]**
-         * 除非您特別指定要將資料放置到的子目錄，否則請將此欄位保留空白。 如果您有指定的地址[!DNL s3://your-bucket/your-subdirectory]，請在[!DNL your-bucket]欄位中輸入[!UICONTROL Bucket]，應將[!DNL your-subdirectory]新增至[!UICONTROL Directory]欄位。 請勿新增前面的斜線。
-         * 如果您必須沿著路徑瀏覽多個目錄，則只有在您使用斜線作為分隔符號時才會使用。 因此，[!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2]的位置會在[!DNL your-bucket]欄位中輸入[!UICONTROL Bucket]，並在[!DNL your-subdirectory1/your-subdirectory2]欄位中輸入[!UICONTROL Directory]。
+         * 除非您特別指定要將資料放置到的子目錄，否則請將此欄位保留空白。 如果您有指定的地址[!DNL s3://your-bucket/your-subdirectory]，請在[!UICONTROL Bucket]欄位中輸入[!DNL your-bucket]，應將[!DNL your-subdirectory]新增至[!UICONTROL Directory]欄位。 請勿新增前面的斜線。
+         * 如果您必須沿著路徑瀏覽多個目錄，則只有在您使用斜線作為分隔符號時才會使用。 因此，[!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2]的位置會在[!UICONTROL Bucket]欄位中輸入[!DNL your-bucket]，並在[!UICONTROL Directory]欄位中輸入[!DNL your-subdirectory1/your-subdirectory2]。
       * **[!UICONTROL Access / Secret Keys]**
          * 當[!DNL TechOps]建立儲存貯體並向顧問提供存取/機密金鑰時，這些認證通常是`READ-ONLY`個要傳遞給使用者端的認證。 這些認證不應輸入到[!UICONTROL Access / Secret Key]欄位中，因為這會造成傳輸失敗（因為這些認證是唯讀的，無法寫入）。 在[!DNL TechOps]建立儲存貯體並提供認證的情況下，顧問也應要求Adobe金鑰組 — NOT TO GIVEN THE CLIENT — 允許將檔案寫入此儲存貯體。 應該將該索引鍵新增到這些欄位中。
 
@@ -63,14 +73,14 @@ ht-degree: 3%
    * **[!UICONTROL Domain]**
       * 請輸入[!DNL HTTP]專案的前置詞資訊。 如果您有帳戶[!DNL https://superduper.com]，請在此欄位中輸入[!DNL https://superduper.com]。
       * **[!UICONTROL URL Prefix]**
-         * 新增[!DNL URL]首碼時，請將前斜線保持關閉。 [!DNL https://hello.com/r/x/y/z]的地址應該在[!DNL https://hello.com]欄位中輸入[!UICONTROL Domain]，並在[!DNL r/x/y/z]欄位中在此輸入[!UICONTROL URL Prefix]。
+         * 新增[!DNL URL]首碼時，請將前斜線保持關閉。 [!DNL https://hello.com/r/x/y/z]的地址應該在[!UICONTROL Domain]欄位中輸入[!DNL https://hello.com]，並在[!UICONTROL URL Prefix]欄位中在此輸入[!DNL r/x/y/z]。
          * 若不需要[!UICONTROL URL Prefix]，請將此值留空。
       * **[!UICONTROL Authentication - SSH Key]**
          * 在此方塊中輸入完整的`SSH PRIVATE`金鑰值，包括頁首、頁尾和分行符號，以確保加密/金鑰儲存準確。
 
 ### 沒有足夠的時間產生輸出
 
-外送處理每天執行兩次，而多個處理（外送、發佈、推送至外部位置等）必須在檔案推送至其最終目的地之前執行。 有一個理想的經驗法則是，目的地應於至少24小時完成完整設定，之後才可將資料推送至外部位置。
+遞延處理每天執行兩次，並且執行多個處理（遞延、發佈、推送至外部位置等） 必須先執行，檔案才會推送至其最終目的地。 有一個理想的經驗法則是，目的地應於至少24小時完成完整設定，之後才可將資料推送至外部位置。
 
 ### 檔案分割大小太大
 
@@ -89,17 +99,17 @@ ht-degree: 3%
 >
 >如需在管理員UI中建立目的地的詳細逐步解說，請參閱[建立或編輯公司目的地](companies/admin-manage-company-destinations.md#create-edit-company-destinations)文章。
 
-您的客戶想要根據目的地匯出不同的ID型別。 以下組態圖表顯示您應該選取哪些選項，以匯出與不同ID型別相關的設定檔資訊。 建議您也參考Audience Manager[中的](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hant)ID索引。 有三個重要的設定需要考慮： [!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我們將在下方詳細介紹所有這些。
+您的客戶想要根據目的地匯出不同的ID型別。 以下組態圖表顯示您應該選取哪些選項，以匯出與不同ID型別相關的設定檔資訊。 建議您也參考Audience Manager[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hant)中的ID索引。 有三個重要的設定需要考慮： [!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我們將在下方詳細介紹所有這些。
 
-* [!UICONTROL User ID Key]。在[!UICONTROL Admin UI]中，移至&#x200B;**[!UICONTROL Companies]**。 搜尋客戶的公司，然後按一下該公司。 尋找&#x200B;**[!UICONTROL Destinations]**&#x200B;索引標籤並按&#x200B;**[!UICONTROL Add Destination]**。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流程中，選取[!UICONTROL User ID Key]。 [!UICONTROL User ID Key]將篩選來自目標資料來源的傳入ID，並只允許這些ID通過。
+* [!UICONTROL User ID Key]. 在[!UICONTROL Admin UI]中，移至&#x200B;**[!UICONTROL Companies]**。 搜尋客戶的公司，然後按一下該公司。 尋找&#x200B;**[!UICONTROL Destinations]**&#x200B;索引標籤並按&#x200B;**[!UICONTROL Add Destination]**。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流程中，選取[!UICONTROL User ID Key]。 [!UICONTROL User ID Key]將篩選來自目標資料來源的傳入ID，並只允許這些ID通過。
 
   ![](assets/user_id_key.PNG)
 
-* [!UICONTROL Data Source Type]。在Audience Manager UI中建立目的地時，請選取此選項。 首先，選取[!UICONTROL Inbound]，然後選取您想要的ID型別。 選項包括：
+* [!UICONTROL Data Source Type]. 在Audience Manager UI中建立目的地時，請選取此選項。 首先，選取[!UICONTROL Inbound]，然後選取您想要的ID型別。 選項包括：
 
   ![](assets/data_source_settings.PNG)
 
-* [!UICONTROL Format]。此選項決定要匯出的檔案格式。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流程的&#x200B;**[!UICONTROL Batch Data]**&#x200B;下，選取格式。
+* [!UICONTROL Format]. 此選項決定要匯出的檔案格式。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流程的&#x200B;**[!UICONTROL Batch Data]**&#x200B;下，選取格式。
 
 若要檢查格式，請移至&#x200B;**[!UICONTROL Admin UI > Formats]**&#x200B;並尋找[!UICONTROL Data Row]專案。 此元素包含檔案格式的巨集，在以下範例中為&lt;MCID>。
 

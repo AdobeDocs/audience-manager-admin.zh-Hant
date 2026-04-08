@@ -6,9 +6,17 @@ solution: Audience Manager
 title: Beta環境
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+TQID: https://experienceleague.adobe.com/Y6hON41v53cSXtuTYMW8UMgimwyewWHvfcBvMYDnBa4
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: 366
 ht-degree: 2%
 
 ---
@@ -24,9 +32,9 @@ ht-degree: 2%
 | 服務 | url/主機名稱 | 布建的步驟 |
 |--- |--- |--- |
 | S3 | | 請參閱[布建Amazon S3貯體](admin-beta-environment.md#provision-s3-buckets)。 |
-| DCS | https&amp;amp；冒號；//dcs-beta.demdex.net/... | 不需要從我們這邊執行額外的步驟。 請參閱[在Beta環境中存取DCS](admin-beta-environment.md#access-dcs-beta-environment)。 |
-| UI | https&amp;amp；冒號；//bank-beta.demdex.com | 資料會每月從生產環境複製到測試版環境。 生產認證對Beta版有效。 |
-| API | https&amp;amp；冒號；//api-beta.demdex.com/... | 資料會每月從生產環境複製到測試版環境。 生產認證對Beta版有效。 |
+| DCS | https&amp;colon；//dcs-beta.demdex.net/... | 不需要從我們這邊執行額外的步驟。 請參閱[在Beta環境中存取DCS](admin-beta-environment.md#access-dcs-beta-environment)。 |
+| UI | https&amp;colon；//bank-beta.demdex.com | 資料會每月從生產環境複製到測試版環境。 生產認證對Beta版有效。 |
+| API | https&amp;colon；//api-beta.demdex.com/... | 資料會每月從生產環境複製到測試版環境。 生產認證對Beta版有效。 |
 
 ## 布建Amazon S3貯體 {#provision-s3-buckets}
 
@@ -40,7 +48,7 @@ ht-degree: 2%
 1. 前往左側導覽邊欄中的&#x200B;**[!UICONTROL Request TechOps Help]**。
 1. 在&#x200B;**[!UICONTROL Request Search]**&#x200B;中，於搜尋欄位中輸入Audience Manager。
 1. 向下捲動搜尋結果，然後按一下&#x200B;**Audience Manager - S3輸入/輸出帳戶布建**。
-1. 填寫布建視窗中的欄位，並在&#x200B;**欄位中指定**&#x200B;沙箱環境&#x200B;**[!UICONTROL Environment]**。
+1. 填寫布建視窗中的欄位，並在&#x200B;**[!UICONTROL Environment]**&#x200B;欄位中指定&#x200B;**沙箱環境**。
 
 >[!NOTE]
 >
@@ -50,7 +58,7 @@ ht-degree: 2%
 
 若要在Beta版環境中存取[!UICONTROL DCS]：
 
-1. 使用[!UICONTROL DCS] [!DNL curl]命令[進行](https://curl.haxx.se/docs/manpage.html)呼叫。 [!DNL Curl]是一種工具，可使用許多支援的通訊協定之一，將資料從伺服器傳輸或傳輸到伺服器。
+1. 使用[!DNL curl] [命令](https://curl.haxx.se/docs/manpage.html)進行[!UICONTROL DCS]呼叫。 [!DNL Curl]是一種工具，可使用許多支援的通訊協定之一，將資料從伺服器傳輸或傳輸到伺服器。
 
    例如︰`curl -v https://dcs-beta.demdex.net/event`
 

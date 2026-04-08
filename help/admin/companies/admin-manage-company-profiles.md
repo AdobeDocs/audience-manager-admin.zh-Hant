@@ -5,9 +5,20 @@ seo-title: Create a Company Profile
 title: 建立公司設定檔
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
 exl-id: 80bb8a89-0207-4645-ac42-e73cd10561de
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+TQID: https://experienceleague.adobe.com/rQozfJrXiUu5746xTtJv-trs7Tuig4PD5HlR5jsrlzw
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: 944
 ht-degree: 2%
 
 ---
@@ -23,7 +34,7 @@ ht-degree: 2%
 >您必須擁有&#x200B;**[!UICONTROL DEXADMIN]**&#x200B;角色才能建立新公司。
 
 1. 按一下&#x200B;**[!UICONTROL Companies]** > **[!UICONTROL Add Company]**。
-1. 填寫欄位: 
+1. 填寫欄位:
 
    * **[!UICONTROL Name]**： （必要）指定公司的名稱。
    * **[!UICONTROL Description]**： （必要）提供公司的描述性資訊，例如產業或其全名。
@@ -31,7 +42,7 @@ ht-degree: 2%
 
      例如，如果貴公司名為[!DNL AcmeCorp]，則子網域將是[!DNL acmecorp]。
 
-     Audience Manager使用[!UICONTROL Data Collection Server] (DCS)的子網域。 在上一個範例中，如果貴公司在[!DNL URL]中的完整[!UICONTROL DCS]為[!DNL acmecorp.demdex.net]。
+     Audience Manager使用[!UICONTROL Data Collection Server] (DCS)的子網域。 在上一個範例中，如果貴公司在[!UICONTROL DCS]中的完整[!DNL URL]為[!DNL acmecorp.demdex.net]。
 
    * **[!UICONTROL Lifecyle]**：指定想要的公司階段：
       * **[!UICONTROL Active]**：指定該公司將會是作用中的Audience Manager使用者端。 [!UICONTROL Active]帳戶表示付費客戶，不僅是為了諮詢，也是為了使用Audience Manager SKU。
@@ -53,7 +64,7 @@ ht-degree: 2%
 
    * **[!UICONTROL Agency]**：指定公司將會有[!UICONTROL Agency]帳戶。
 
-1. 按一下&#x200B;**[!UICONTROL Create]**。 繼續執行[編輯公司設定檔](../companies/admin-manage-company-profiles.md#edit-company-profile)中的指示。
+1. 按一下 **[!UICONTROL Create]**。 繼續執行[編輯公司設定檔](../companies/admin-manage-company-profiles.md#edit-company-profile)中的指示。
 
    ![步驟結果](assets/add_company.png)
 
@@ -77,7 +88,7 @@ ht-degree: 2%
 
      例如，如果貴公司名為[!DNL AcmeCorp]，則子網域將是[!DNL acmecorp]。
 
-     Audience Manager使用[!UICONTROL Data Collection Server] (DCS)的子網域。 在上一個範例中，如果貴公司在[!DNL URL]中的完整[!UICONTROL DCS]為[!DNL acmecorp.demdex.net]。
+     Audience Manager使用[!UICONTROL Data Collection Server] (DCS)的子網域。 在上一個範例中，如果貴公司在[!UICONTROL DCS]中的完整[!DNL URL]為[!DNL acmecorp.demdex.net]。
 
    * **[!UICONTROL imsOrgld]**： ([!UICONTROL Identity Management System Organization ID])此ID可讓您連線公司與Adobe Experience Cloud。
    * **[!UICONTROL Lifecyle]**：指定想要的公司階段：
@@ -96,7 +107,7 @@ ht-degree: 2%
    * **[!UICONTROL Targeting Partner]**：指定公司將當作Audience Manager客戶的鎖定目標平台。
    * **[!UICONTROL Visitor ID Service]**：指定公司已啟用使用Experience Cloud訪客ID服務。
 
-     Experience Cloud 訪客 ID 服務提供跨 Experience Cloud 解決方案的通用訪客 ID。如需詳細資訊，請參閱[Experience Cloud ID服務使用手冊](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+     Experience Cloud 訪客 ID 服務提供跨 Experience Cloud 解決方案的通用訪客 ID。 如需詳細資訊，請參閱[Experience Cloud ID服務使用手冊](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
    * **[!UICONTROL Agency]**：指定公司將擁有代理帳戶。
    * **[!UICONTROL Features]**：選取所要的選項：
@@ -108,7 +119,7 @@ ht-degree: 2%
 
 ## 刪除公司設定檔 {#delete-company-profile}
 
-使用Audience Manager [!UICONTROL Companies]工具中的[!UICONTROL Admin]頁面來刪除現有公司。
+使用Audience Manager [!UICONTROL Admin]工具中的[!UICONTROL Companies]頁面來刪除現有公司。
 
 <!-- t_delete_company.xml -->
 
@@ -120,5 +131,5 @@ ht-degree: 2%
 
    ![步驟結果](assets/companies.png)
 
-1. 按一下所需公司![](assets/icon_delete.png)欄中的&#x200B;**[!UICONTROL Actions]**。
+1. 按一下所需公司&#x200B;**[!UICONTROL Actions]**&#x200B;欄中的![](assets/icon_delete.png)。
 1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以確認刪除。

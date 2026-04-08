@@ -5,10 +5,18 @@ seo-title: Documentation Updates
 title: 文件更新
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+TQID: https://experienceleague.adobe.com/QQHJ9VBxkF-pMFYIvgny6JJRS38Q-3nXD1kSzWdGJxQ
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 94%
+source-wordcount: 644
+ht-degree: 88%
 
 ---
 
@@ -16,7 +24,7 @@ ht-degree: 94%
 
 依日期列出 Audience Manager 管理員手冊的所有更新 (新增、刪除和更正項目)。
 
-如需功能版本、增強功能和錯誤修正的詳細資訊，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。如需[!DNL Audience Manager]檔案變更，請參閱[檔案更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=zh-Hant)。
+如需功能版本、增強功能和錯誤修正的詳細資訊，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。 如需[!DNL Audience Manager]檔案變更，請參閱[檔案更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=zh-Hant)。
 
 ## AAM 2019檔案更新 {#aam-2019-docs-updates}
 
@@ -47,7 +55,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7">方法：為批次目的地授予跨帳戶 Amazon S3 儲存貯體存取權</a> </p> </td> 
-   <td colname="col2"> <p>如果我們的客戶不想共用 Amazon S3 存取金鑰和秘密金鑰，可在 Amazon S3 中使用跨帳戶儲存貯體權限，傳送傳出的資料檔案。此文件會說明如何在 Audience Manager 管理員 UI 中設定此替代方案。 </p> </td> 
+   <td colname="col2"> <p>如果我們的客戶不想共用 Amazon S3 存取金鑰和秘密金鑰，可在 Amazon S3 中使用跨帳戶儲存貯體權限，傳送傳出的資料檔案。 此文件會說明如何在 Audience Manager 管理員 UI 中設定此替代方案。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +108,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421">API 需求與建議</a> </p> </td> 
-   <td colname="col2"> <p>此新增文件說明需注意及告知客戶的幾個需求和建議。內容與相同標題的公開文件大致相同，但會隨不同閱讀客群而有所調整。請參閱公開文件中的 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=zh-Hant#api-requirements-recommendations" format="https" scope="external">API 需求與建議</a>。 </p> </td> 
+   <td colname="col2"> <p>此新增文件說明需注意及告知客戶的幾個需求和建議。 內容與相同標題的公開文件大致相同，但會隨不同閱讀客群而有所調整。 請參閱公開文件中的 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=zh-Hant#api-requirements-recommendations" format="https" scope="external">API 需求與建議</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -182,15 +190,15 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>2014 年 10 月 23 日 </p> <p><a href="formats/formats.md#concept_66AA2E78A25C4973B3230D5F75B192A2">格式</a> </p> </td> 
-   <td colname="col2"> <p>新增頁面。請注意，此頁面正在架設中，預計未來幾天內會完成更新。 </p> </td> 
+   <td colname="col2"> <p>新增頁面。 請注意，此頁面正在架設中，預計未來幾天內會完成更新。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2014 年 10 月 22 日 </p> <p><a href="admin-destination-troubleshooting.md#">目的地設定疑難排解</a> </p> </td> 
-   <td colname="col2"> <p> 新主題。 </p> </td> 
+   <td colname="col2"> <p>新主題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2014 年 10 月 21 日 </p> <p><a href="companies/admin-manage-company-destinations.md#manage-company-destinations">管理公司目的地</a> </p> </td> 
-   <td colname="col2"> <p>重寫整個主題。新增其他資訊和其他設定。 </p> </td> 
+   <td colname="col2"> <p>重寫整個主題。 新增其他資訊和其他設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2014 年 9 月 25 日 </p> <p><a href="companies/admin-manage-company-profiles.md">建立公司</a> </p> </td> 

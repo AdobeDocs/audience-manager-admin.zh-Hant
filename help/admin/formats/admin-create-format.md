@@ -5,9 +5,17 @@ seo-title: Create or Edit a Format
 title: 建立或編輯格式
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
 exl-id: 3c97d1e9-8093-4181-a1fd-fb1816cdaa3d
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+TQID: https://experienceleague.adobe.com/VMEOfWNeQ5CSWvWqZYdjNO4qyvFD5Iw1onpAdVRKgQQ
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: 439
 ht-degree: 1%
 
 ---
@@ -26,7 +34,7 @@ ht-degree: 1%
 
    ![](assets/create_format.png)
 
-1. 填寫欄位: 
+1. 填寫欄位:
    * **名稱：** （必要）提供格式的描述性名稱。
    * **型別：** （必要）選取所要的格式：
       * **[!UICONTROL File]**：透過[!DNL FTP]個檔案傳送資料。
@@ -57,5 +65,5 @@ ht-degree: 1%
 ## 刪除格式 {#delete-format}
 
 1. 按一下 **[!UICONTROL Formats]**。
-2. 按一下所需格式之![](assets/icon_delete.png)欄中的&#x200B;**[!UICONTROL Actions]**。
+2. 按一下所需格式之&#x200B;**[!UICONTROL Actions]**&#x200B;欄中的![](assets/icon_delete.png)。
 3. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以確認刪除。
