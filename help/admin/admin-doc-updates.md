@@ -24,7 +24,7 @@ ht-degree: 88%
 
 依日期列出 Audience Manager 管理員手冊的所有更新 (新增、刪除和更正項目)。
 
-如需功能版本、增強功能和錯誤修正的詳細資訊，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。 如需[!DNL Audience Manager]檔案變更，請參閱[檔案更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en)。
+如需功能版本、增強功能和錯誤修正的詳細資訊，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。 如需[!DNL Audience Manager]檔案變更，請參閱[檔案更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=zh-Hant)。
 
 ## AAM 2019檔案更新 {#aam-2019-docs-updates}
 
@@ -108,7 +108,7 @@ ht-degree: 88%
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421">API 需求與建議</a> </p> </td> 
-   <td colname="col2"> <p>此新增文件說明需注意及告知客戶的幾個需求和建議。 內容與相同標題的公開文件大致相同，但會隨不同閱讀客群而有所調整。 請參閱公開文件中的 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external">API 需求與建議</a>。 </p> </td> 
+   <td colname="col2"> <p>此新增文件說明需注意及告知客戶的幾個需求和建議。 內容與相同標題的公開文件大致相同，但會隨不同閱讀客群而有所調整。 請參閱公開文件中的 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=zh-Hant#api-requirements-recommendations" format="https" scope="external">API 需求與建議</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

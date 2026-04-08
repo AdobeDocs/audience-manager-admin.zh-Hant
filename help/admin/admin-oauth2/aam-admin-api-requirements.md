@@ -41,4 +41,4 @@ ht-degree: 0%
 * 識別呼叫[!DNL API]的服務（例如，來自使用我們[!DNL API]的使用者端應用程式或進行大量變更的呼叫）。
 * 提供對[!DNL API]的不中斷存取。 繫結至特定員工的帳戶可能會在員工離開公司時刪除。 這會導致您的客戶無法使用可用的[!DNL API]程式碼。 未與特定員工繫結的一般帳戶有助於避免此問題。
 
-此帳戶型別的範例或使用案例，假設您的客戶想要使用[大量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en)一次變更許多區段。 若要這麼做，他們需要[!DNL API]存取權。 請建立具有適當認證、金鑰和密碼的非特定[!DNL API]使用者帳戶，以進行[!DNL API]呼叫，而不新增許可權給特定使用者。 如果使用者端自行開發使用[!DNL Audience Manager] [!DNL API]的應用程式，這也很有用。
+此帳戶型別的範例或使用案例，假設您的客戶想要使用[大量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=zh-Hant)一次變更許多區段。 若要這麼做，他們需要[!DNL API]存取權。 請建立具有適當認證、金鑰和密碼的非特定[!DNL API]使用者帳戶，以進行[!DNL API]呼叫，而不新增許可權給特定使用者。 如果使用者端自行開發使用[!DNL Audience Manager] [!DNL API]的應用程式，這也很有用。

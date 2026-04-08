@@ -84,7 +84,7 @@ ht-degree: 3%
 
 ### 檔案分割大小太大
 
-將檔案外送至目的地時，您可以將較大的外送檔案分割為檔案區塊中。 請確定個別檔案區塊不超過10 GB。 另請參閱[傳出資料檔案名稱：語法和範例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en)。
+將檔案外送至目的地時，您可以將較大的外送檔案分割為檔案區塊中。 請確定個別檔案區塊不超過10 GB。 另請參閱[傳出資料檔案名稱：語法和範例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=zh-Hant)。
 
 
 ## 如何設定目的地，以匯出資料檔案中的Experience Cloud ID、客戶ID或Audience Manager ID {#set-up-destinations-export}
@@ -99,7 +99,7 @@ ht-degree: 3%
 >
 >如需在管理員UI中建立目的地的詳細逐步解說，請參閱[建立或編輯公司目的地](companies/admin-manage-company-destinations.md#create-edit-company-destinations)文章。
 
-您的客戶想要根據目的地匯出不同的ID型別。 以下組態圖表顯示您應該選取哪些選項，以匯出與不同ID型別相關的設定檔資訊。 建議您也參考Audience Manager[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en)中的ID索引。 有三個重要的設定需要考慮： [!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我們將在下方詳細介紹所有這些。
+您的客戶想要根據目的地匯出不同的ID型別。 以下組態圖表顯示您應該選取哪些選項，以匯出與不同ID型別相關的設定檔資訊。 建議您也參考Audience Manager[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hant)中的ID索引。 有三個重要的設定需要考慮： [!UICONTROL User ID Key]、[!UICONTROL Data Source Type]和[!UICONTROL Format]。 我們將在下方詳細介紹所有這些。
 
 * [!UICONTROL User ID Key]. 在[!UICONTROL Admin UI]中，移至&#x200B;**[!UICONTROL Companies]**。 搜尋客戶的公司，然後按一下該公司。 尋找&#x200B;**[!UICONTROL Destinations]**&#x200B;索引標籤並按&#x200B;**[!UICONTROL Add Destination]**。 在&#x200B;**[!UICONTROL Add Destination]**&#x200B;工作流程中，選取[!UICONTROL User ID Key]。 [!UICONTROL User ID Key]將篩選來自目標資料來源的傳入ID，並只允許這些ID通過。
 
