@@ -5,9 +5,11 @@ seo-title: Create or Edit an FTP Server
 title: 建立或編輯FTP伺服器
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
-source-git-commit: 92bf9b281c71e38d1bd5e0229f550a2124080b21
+TQID: https://experienceleague.adobe.com/vXm5k1APT6BVn0Ub7ntfDCnAdSfOWTLRo6ci-yK5cWk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: 397
 ht-degree: 1%
 
 ---
@@ -26,9 +28,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >作為最佳實務，建議您使用[!DNL Amazon S3]作為從合作夥伴取得檔案並將檔案傳遞給合作夥伴的方法。 [!DNL Amazon S3]提供簡易的網頁服務介面，可隨時隨地從網頁上儲存及擷取任何數量的資料。 如需詳細資訊，請參閱[Amazon使用手冊](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=zh-Hant)中的&#x200B;*關於Audience Manager S3*。
+   >作為最佳實務，建議您使用[!DNL Amazon S3]作為從合作夥伴取得檔案並將檔案傳遞給合作夥伴的方法。 [!DNL Amazon S3]提供簡易的網頁服務介面，可隨時隨地從網頁上儲存及擷取任何數量的資料。 如需詳細資訊，請參閱&#x200B;*Amazon使用手冊*&#x200B;中的[關於Audience Manager S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)。
 
-1. 填寫欄位: 
+1. 填寫欄位:
 
    * **[!UICONTROL Type]：**&#x200B;選取所需的加密型別： **[!UICONTROL SFTP]**&#x200B;或&#x200B;**[!UICONTROL FTPs/TLS]**。
    * **[!UICONTROL Domain]：**&#x200B;指定此伺服器的所需網域（主機）。

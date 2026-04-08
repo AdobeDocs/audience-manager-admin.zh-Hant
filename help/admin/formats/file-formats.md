@@ -5,9 +5,11 @@ seo-title: File Format Macros
 title: 檔案格式巨集
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 exl-id: e686bc33-da3e-49a9-8c71-2bc6ca399bfb
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/ATzqYmfRIVDeQ3DZpbcZkCP4Jjsapw9Nfyli1QFR8-o
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 686
 ht-degree: 1%
 
 ---
@@ -105,7 +107,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>插入右大括弧<code>&rbrace;</code>字元。 </p> </td> 
+   <td colname="col2"> <p>插入右大括弧<code>}</code>字元。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -137,15 +139,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>插入左大括弧<code>&lbrace;</code>字元。 </p> </td> 
+   <td colname="col2"> <p>插入左大括弧<code>{</code>字元。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
-   <td colname="col2"> <p>不再提倡。請勿使用。 </p> </td> 
+   <td colname="col2"> <p>不再提倡。 請勿使用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OUTPUT_ATTRIBUTE_TYPE</code> </p> </td> 
-   <td colname="col2"> <p>不再提倡。請勿使用。 </p> </td> 
+   <td colname="col2"> <p>不再提倡。 請勿使用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OUTPUT_ATTRIBUTE_VALUE</code> </p> </td> 
@@ -163,11 +165,11 @@ ht-degree: 1%
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
    <td colname="col2"> <p>傳回清單中的區段清單。 接受下列可選變數： </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>：舊版識別碼。 不再提倡。使用<code>sid</code> （僅限小寫）。 </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>：舊版識別碼。 不再提倡。使用<code>sid</code> （僅限小寫）。 </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>：舊版識別碼。 不再提倡。 使用<code>sid</code> （僅限小寫）。 </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>：舊版識別碼。 不再提倡。 使用<code>sid</code> （僅限小寫）。 </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>：區段識別碼。 </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>：傳回<code>5</code>，這個靜態的硬式編碼值會將資料識別為區段資料。 </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>：區段的對應。 不再提倡。使用<code>sid</code> （僅限小寫）。 </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>：區段的對應。 不再提倡。 使用<code>sid</code> （僅限小寫）。 </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>：表示上次實現區段時間的Unix時間戳記。 </li> 
     </ul> <p>將這些變數放在巨集後面的大括弧中。 例如，此程式碼會以垂直號「|」字元分隔結果： <code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> </p> </td> 
   </tr> 

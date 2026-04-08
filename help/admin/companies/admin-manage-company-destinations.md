@@ -5,9 +5,12 @@ seo-title: Manage Company Destinations
 title: 管理公司目的地
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
 exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+TQID: https://experienceleague.adobe.com/-MWpMACN0bFPIRAWejD0-VV5nG8BGAukmV1QXxXal-E
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: 1101
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 <!-- t_company_destinations.xml -->
 
-如需詳細資訊，請參閱[Audience Manager使用手冊](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=zh-Hant)中的&#x200B;*目的地*。
+如需詳細資訊，請參閱&#x200B;*Audience Manager使用手冊*&#x200B;中的[目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html)。
 
 ## 建立或編輯公司目的地 {#create-edit-company-destinations}
 
@@ -58,7 +61,7 @@ ht-degree: 0%
 >
 >對於[!UICONTROL Bulk ID]目的地型別，您無法使用[!DNL Audience Manager] [!UICONTROL User ID]或[!DNL Adobe Experience Cloud] ID。
 
-如果您的資料來源識別碼([!UICONTROL DPID])未顯示在下拉式清單中，您必須在&#x200B;**[!UICONTROL Outbound]**&#x200B;資料Source設定頁面[上的資料來源層級選取](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=zh-Hant)核取方塊。
+如果您的資料來源識別碼([!UICONTROL DPID])未顯示在下拉式清單中，您必須在[資料Source設定頁面](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html)上的資料來源層級選取&#x200B;**[!UICONTROL Outbound]**&#x200B;核取方塊。
 
 * **[!UICONTROL Target Data Source]：** （必要）從下拉式清單中選取此目的地的所需資料來源。 此設定可啟用出站資料的標籤，以允許擷取到使用者端上的個別系統中。
 * **[!UICONTROL Foreign Account ID]：**&#x200B;指定此目的地的外部帳戶識別碼。 這是收件者系統中此出站資料的識別值。
@@ -85,7 +88,7 @@ ht-degree: 0%
    * **[!UICONTROL S3]**
 * **[!UICONTROL Servers]**： （必要）從下拉式清單中選取此目的地的所需伺服器。
 * **[!UICONTROL Format]**： （必要）從下拉式清單中選取此目的地的所需格式： [!DNL HTTP]或檔案型別（視您在上面選擇的通訊協定而定）。
-* **[!UICONTROL Sync Type]**： （必要）為此目的地選取所需的同步型別。 這表示使用者端要包含在傳出訂單中的使用者活動等級。 如果使用者端只想從其屬性分析區段資格，請選取&#x200B;**[!UICONTROL Customer]**。 如果他們想要包含來自所有&#x200B;**[!UICONTROL Platform]**&#x200B;客戶的站外活動的區段資格，請選取[!DNL Audience Manager]。
+* **[!UICONTROL Sync Type]**： （必要）為此目的地選取所需的同步型別。 這表示使用者端要包含在傳出訂單中的使用者活動等級。 如果使用者端只想從其屬性分析區段資格，請選取&#x200B;**[!UICONTROL Customer]**。 如果他們想要包含來自所有[!DNL Audience Manager]客戶的站外活動的區段資格，請選取&#x200B;**[!UICONTROL Platform]**。
 * **[!UICONTROL Customer]**：檔案包含在所選時段內在使用者端的屬性（與使用者端的[!UICONTROL PID]關聯）上至少具有1個特徵實現的作用中使用者。 您的使用者端應使用此選項將其&#x200B;*即時*&#x200B;區段資格輸出至目的地。
 * **[!UICONTROL Platform]**：檔案包含在所選時段內，所有[!DNL Audience Manager]使用者端屬性（與所有使用者端PID相關聯）中任何位置具有至少1個即時互動的使用者，無論是ID同步還是特徵實現。 您的使用者端應使用此選項將其&#x200B;*總計*&#x200B;個區段資格輸出至目的地。
 * **[!UICONTROL Lifetime]**：檔案包含自建立目的地後，在所有[!DNL Audience Manager]使用者端屬性中可看見的使用中使用者。
@@ -129,7 +132,7 @@ I removed {importance="high"} from note for Exp League rendering. -Bob
 若要刪除目的地：
 
 1. 按一下「**[!UICONTROL Companies]**」，尋找並按一下所需的公司，然後按一下「**[!UICONTROL Destinations]**」標籤。
-1. 按一下所需目的地![](assets/icon_delete.png)欄中的&#x200B;**[!UICONTROL Actions]**。
+1. 按一下所需目的地&#x200B;**[!UICONTROL Actions]**&#x200B;欄中的![](assets/icon_delete.png)。
 1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以確認刪除。
 
 >[!NOTE]
