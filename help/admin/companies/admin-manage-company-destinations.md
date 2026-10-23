@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <!-- t_company_destinations.xml -->
 
-如需詳細資訊，請參閱&#x200B;*Audience Manager使用手冊*&#x200B;中的[目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html)。
+如需詳細資訊，請參閱&#x200B;*Audience Manager使用手冊*&#x200B;中的[目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=zh-Hant)。
 
 ## 建立或編輯公司目的地 {#create-edit-company-destinations}
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 >
 >對於[!UICONTROL Bulk ID]目的地型別，您無法使用[!DNL Audience Manager] [!UICONTROL User ID]或[!DNL Adobe Experience Cloud] ID。
 
-如果您的資料來源識別碼([!UICONTROL DPID])未顯示在下拉式清單中，您必須在[資料Source設定頁面](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html)上的資料來源層級選取&#x200B;**[!UICONTROL Outbound]**&#x200B;核取方塊。
+如果您的資料來源識別碼([!UICONTROL DPID])未顯示在下拉式清單中，您必須在[資料Source設定頁面](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=zh-Hant)上的資料來源層級選取&#x200B;**[!UICONTROL Outbound]**&#x200B;核取方塊。
 
 * **[!UICONTROL Target Data Source]：** （必要）從下拉式清單中選取此目的地的所需資料來源。 此設定可啟用出站資料的標籤，以允許擷取到使用者端上的個別系統中。
 * **[!UICONTROL Foreign Account ID]：**&#x200B;指定此目的地的外部帳戶識別碼。 這是收件者系統中此出站資料的識別值。
