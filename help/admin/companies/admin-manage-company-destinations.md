@@ -8,15 +8,15 @@ exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
 TQID: https://experienceleague.adobe.com/-MWpMACN0bFPIRAWejD0-VV5nG8BGAukmV1QXxXal-E
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: '1105'
 ht-degree: 0%
-
 ---
-
 # 管理公司目的地 {#manage-company-destinations}
 
 建立、編輯和刪除Audience Manager目的地。
@@ -48,13 +48,13 @@ ht-degree: 0%
 * **[!UICONTROL Name]：** （必要）指定此目的地的名稱。
 * **[!UICONTROL Description]：**&#x200B;指定此目的地的描述性資訊。
 * **[!UICONTROL Type]：** （必要）選取所要的目的地型別：
-   * **[!UICONTROL Bulk ID]**：在不同平台之間同步識別碼。
-   * **[!UICONTROL Bulk Trait]**：將特徵資訊大量傳送至不同平台。
-   * **[!UICONTROL Bulk Segment]**：將區段資訊大量傳送至不同的平台。
-   * **[!UICONTROL S2S]**：使用伺服器對伺服器目的地，將即時和批次資料傳送至不同的平台。
+  * **[!UICONTROL Bulk ID]**：在不同平台之間同步識別碼。
+  * **[!UICONTROL Bulk Trait]**：將特徵資訊大量傳送至不同平台。
+  * **[!UICONTROL Bulk Segment]**：將區段資訊大量傳送至不同的平台。
+  * **[!UICONTROL S2S]**：使用伺服器對伺服器目的地，將即時和批次資料傳送至不同的平台。
 * **[!UICONTROL Auto-Fill Destination Mapping]：** （僅限[!UICONTROL S2S]）選取選項：
-   * **[!UICONTROL Segment ID]：**&#x200B;若您選取此設定，則目的地值對應會填入[!DNL Audience Manager]區段識別碼。
-   * **[!UICONTROL Integration Code Value]：**&#x200B;如果您選取此設定，則目的地值對應會填入[!DNL Audience Manager]區段整合代碼。
+  * **[!UICONTROL Segment ID]：**&#x200B;若您選取此設定，則目的地值對應會填入[!DNL Audience Manager]區段識別碼。
+  * **[!UICONTROL Integration Code Value]：**&#x200B;如果您選取此設定，則目的地值對應會填入[!DNL Audience Manager]區段整合代碼。
 * **[!UICONTROL User ID Key]：** （必要）從下拉式清單中選取此目的地的所需使用者ID金鑰。
 
 此ID會當作主要資料來源ID使用。 這會決定要在檔案中退出的使用者ID。
@@ -85,9 +85,9 @@ ht-degree: 0%
 若為[!UICONTROL Bulk ID]、[!UICONTROL Bulk Trait]或[!UICONTROL Bulk Segment]目的地，請填寫下列欄位：
 
 * **[!UICONTROL Protocol]**： （必要）從下拉式清單中選取此目的地的所需通訊協定：
-   * **[!UICONTROL FTP]**
-   * **[!UICONTROL HTTP]**
-   * **[!UICONTROL S3]**
+  * **[!UICONTROL FTP]**
+  * **[!UICONTROL HTTP]**
+  * **[!UICONTROL S3]**
 * **[!UICONTROL Servers]**： （必要）從下拉式清單中選取此目的地的所需伺服器。
 * **[!UICONTROL Format]**： （必要）從下拉式清單中選取此目的地的所需格式： [!DNL HTTP]或檔案型別（視您在上面選擇的通訊協定而定）。
 * **[!UICONTROL Sync Type]**： （必要）為此目的地選取所需的同步型別。 這表示使用者端要包含在傳出訂單中的使用者活動等級。 如果使用者端只想從其屬性分析區段資格，請選取&#x200B;**[!UICONTROL Customer]**。 如果他們想要包含來自所有[!DNL Audience Manager]客戶的站外活動的區段資格，請選取&#x200B;**[!UICONTROL Platform]**。
